@@ -10,9 +10,9 @@ public class positivo_negativo {
 		if (respos == 0) {
 			System.out.println("O valor é 0");
 		}else if (respos > 0){
-			System.out.println(respos+" é mair que 0");
+			System.out.println(respos+" é maior que 0 sendo Positivo");
 		}else {
-			System.out.println(respos+" é menor que 0");
+			System.out.println(respos+" é menor que 0 sendo Negativo");
 		}
 
 	}
