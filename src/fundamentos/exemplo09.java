@@ -14,6 +14,6 @@ public class exemplo09 {
 		double resp = entrada.nextDouble();
 		System.out.printf("%.2f",resp);
 
-	}
+	}	
 
 }
