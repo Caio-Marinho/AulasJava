@@ -7,7 +7,7 @@ public class media {
 		Scanner nota = new Scanner(System.in);
 		System.out.print("Digite a 1º Nota: ");
 		float nota1 = nota.nextFloat();
-		System.out.println("Digite a 2º Nota: ");
+		System.out.print("Digite a 2º Nota: ");
 		float nota2 = nota.nextFloat();
 		float media = (nota1+nota2)/2;
 		System.out.printf("A média do estudante foi: %.2f",media);
