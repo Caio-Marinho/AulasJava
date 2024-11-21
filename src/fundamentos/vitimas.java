@@ -18,6 +18,7 @@ public class vitimas {
 		String resposta4 = entrada.nextLine();
 		System.out.println("Já trabalhou com a vítima?");
 		String resposta5 = entrada.nextLine();
+		entrada.close();
 		if (resposta1.equals("sim")) {
 			soma++;
 		}

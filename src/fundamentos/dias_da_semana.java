@@ -25,6 +25,7 @@ public class dias_da_semana {
 		} else {
 			System.out.println("Valor Invalido!!");
 		}
+		dia.close();
 
 	}
 

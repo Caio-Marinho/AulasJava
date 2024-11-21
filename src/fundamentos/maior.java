@@ -12,6 +12,7 @@
 			double n2 = numero.nextDouble();
 			System.out.print("Diga o 3º número: ");
 			double n3 = numero.nextDouble();
+			numero.close();
 			if (n2<n1 && n3<n1) {
 				System.out.print(n1+" é o maior");
 			} else  if (n1<n2 && n3<n2) {

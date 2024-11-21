@@ -9,6 +9,7 @@ public class media {
 		float nota1 = nota.nextFloat();
 		System.out.print("Digite a 2º Nota: ");
 		float nota2 = nota.nextFloat();
+		nota.close();
 		float media = (nota1+nota2)/2;
 		System.out.printf("A média do estudante foi: %.2f",media);
 
