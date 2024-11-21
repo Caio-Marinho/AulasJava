@@ -14,7 +14,6 @@ public class Exercicio02 {
 			cont++;
 			soma+=nota;
 		}
-		
 		float media = soma/qtd_alunos;
 		System.out.printf("A média da turma foi %.2f",media);
 		entrada.close();
