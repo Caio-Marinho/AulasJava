@@ -14,7 +14,7 @@ public class impar_par {
 		System.out.println();
 		while(num<=100) {
 			if (num%2 == 0) {
-				System.out.print(num+",");
+				System.out.print(num+", ");
 			}
 			num++;
 		}
