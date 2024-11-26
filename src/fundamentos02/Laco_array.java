@@ -26,7 +26,7 @@ public class Laco_array {
 			arrayNum3[i] = entrada.nextInt();
 		}
 		System.out.println(Arrays.toString(arrayNum3));
-		for (int i = 0;i<arrayNum4.length;i++) {
+		for (int i = 0;i<arrayNum4.length; i++) {
 			System.out.println("Digite um número: ");
 			arrayNum4[i] = entrada.nextInt();
 		}
