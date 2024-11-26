@@ -10,5 +10,4 @@ public class Percorrendo_Arrays_For_Aprimorado {
 			total+=i;
 			System.out.printf("Soma dos elementos arrayNum: %d\n",total);
 	}
-
 }
