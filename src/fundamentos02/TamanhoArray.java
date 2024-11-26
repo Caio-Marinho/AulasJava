@@ -6,7 +6,9 @@ public class TamanhoArray {
 		int[] arrayDois = {43,42,4,8,55,21,2,45};
 		if (arrayDois.length > 8) {
 			System.out.println("Tamanho do ArrayDois - Maior que 8!");
-		}else {
+		}else if (arrayDois.length == 8) {
+			System.out.println("Tamanho do ArrayDois - Igual á 8!");
+		} else {
 			System.out.println("Tamanho do ArrayDois - Menor que 8!");
 		}
 		System.out.println("\nTamanho do  ArrayUm = "+arrayUm.length);
