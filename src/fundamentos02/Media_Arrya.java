@@ -12,6 +12,7 @@ public class Media_Arrya {
 			System.out.printf("Informe a nota do %dº aluno: ",i+1);
 			notas[i] = entrada.nextFloat();
 		}
+		entrada.close();
 		for (float i:notas)
 			soma+=i;
 		media = soma/notas.length;
