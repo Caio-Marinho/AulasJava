@@ -7,6 +7,7 @@ public class ClasseTeste {
 		Scanner entrada = new Scanner(System.in);
 		System.out.print("Informe seu nome: ");
 		aluno.nome = entrada.nextLine();
+		entrada.close();
 		aluno.comer();
 	}
 }
