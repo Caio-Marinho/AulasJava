@@ -1,8 +1,14 @@
 package Metodos;
 
+import java.util.Scanner;
+
 public class JavaMetodos {
 	int idade() {
-		return 25;
+		Scanner id = new Scanner(System.in);
+		System.out.println("Informe sua idade: ");
+		int idade = id.nextInt();
+		id.close();
+		return idade;
 	}
 	void mostraNome() {
 		System.out.println("João");
