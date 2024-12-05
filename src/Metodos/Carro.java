@@ -19,4 +19,10 @@ public class Carro {
 		this.modelo = modelo;
 		this.preco = preco;
 	}
+	public void LigarCarro(){
+		System.out.println("Carro Ligado");
+	}
+	public void DesligarCarro(){
+		System.out.println("Carro Desligado");
+	}
 }
