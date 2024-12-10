@@ -8,6 +8,6 @@ public class Aluno extends Pessoa{
 		this.nota = nota;
 	}
 	public void Sofrer() {
-		System.out.printf("%s sofreu com a prova e tirou %.2f\n",this.nome,this.nota);
+		System.out.printf("%s sofreu com a prova e tirou %.2f\n",nome,nota);
 	}
 }

@@ -9,6 +9,6 @@ public class Professor extends Pessoa{
 		
 	}
 	public void AplicarProva() {
-		System.out.printf("O professor %s aplicou prova\n",this.nome);
+		System.out.printf("O professor %s aplicou prova\n",nome);
 	}
 }
